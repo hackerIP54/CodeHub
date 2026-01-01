@@ -514,9 +514,9 @@ local function PVCMU_fake_script() -- Main.Sendpasswordscript
 	local notSub = script.Parent.Parent:WaitForChild("Nosupport")
 	
 	
-	local Password1 =  script.Parent.Parent:WaitForChild("PasswordFolder"):WaitForChild("PasswordConfig"):GetAttribute("Password1")
-	local Password2 = script.Parent.Parent:WaitForChild("PasswordFolder"):WaitForChild("PasswordConfig"):GetAttribute("Password2")
-	local Password3 = script.Parent.Parent:WaitForChild("PasswordFolder"):WaitForChild("PasswordConfig"):GetAttribute("Password3")
+	local Password1 =  "EH"
+	local Password2 =  "bombblingm"
+	local Password3 = "Bombblingm"
 	
 	
 	send.MouseButton1Click:Connect(function(sending) 
@@ -942,5 +942,6 @@ local function ECLXUJB_fake_script() -- Nosupport.Drag
 	end)
 end
 coroutine.wrap(ECLXUJB_fake_script)()
+
 
 
