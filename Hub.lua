@@ -624,7 +624,7 @@ local function STPNXL_fake_script() -- Wiederherstellen.WiederHerstellenScript
 			button.Visible = false
 			wait(0.9)
 			button:WaitForChild("WiederHerstellenLabel").Text = "WiederHerstellen"
-			textbox.Text = "0qssbsky"
+			textbox.Text = "6q1csybw"
 			wait(2)
 			button.Visible = true
 		end
@@ -942,6 +942,7 @@ local function ECLXUJB_fake_script() -- Nosupport.Drag
 	end)
 end
 coroutine.wrap(ECLXUJB_fake_script)()
+
 
 
 
