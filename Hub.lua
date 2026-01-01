@@ -1,9 +1,4 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
-local PrivatServerCode = Instance.new("ScreenGui")
+local NoZoHub = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local NamePassword = Instance.new("TextBox")
 local UICorner = Instance.new("UICorner")
@@ -25,21 +20,50 @@ local Closebutton = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
 local Closelabel_2 = Instance.new("TextLabel")
 local Version = Instance.new("TextLabel")
+local openframeig1 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local ComingSoon = Instance.new("TextLabel")
+local Button = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Off = Instance.new("TextLabel")
+local Open2343 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Openlabel22 = Instance.new("TextLabel")
+local Updateframe = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local UpdateButton = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Updatelabel = Instance.new("TextLabel")
+local UpdateTitle = Instance.new("TextLabel")
+local LoadFrame = Instance.new("Frame")
+local LoadFramei = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local LoadText = Instance.new("TextLabel")
+local PasswordFolder = Instance.new("Folder")
+local PasswordConfig = Instance.new("Configuration")
+local Nosupport = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local Closebutton8 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Closelabel9 = Instance.new("TextLabel")
+local Version_2 = Instance.new("TextLabel")
+local Notsub = Instance.new("TextLabel")
 
 --Properties:
 
-PrivatServerCode.Name = "PrivatServerCode"
-PrivatServerCode.Parent =  game.CoreGui
-PrivatServerCode.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-PrivatServerCode.ResetOnSpawn = false
+NoZoHub.Name = "NoZoHub"
+NoZoHub.Parent = game.CoreGui
+NoZoHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+NoZoHub.ResetOnSpawn = false
 
 Main.Name = "Main"
-Main.Parent = PrivatServerCode
+Main.Parent = NoZoHub
 Main.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
 Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.298521817, 0, 0.206131682, 0)
 Main.Size = UDim2.new(0, 204, 0, 124)
+Main.Visible = false
 
 NamePassword.Name = "NamePassword"
 NamePassword.Parent = Main
@@ -97,9 +121,9 @@ Closebutton1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Closebutton1.BorderSizePixel = 0
 Closebutton1.Position = UDim2.new(0.766081095, 0, 0.0198412873, 0)
 Closebutton1.Size = UDim2.new(0, 47, 0, 29)
-Closebutton1.Font = Enum.Font.SourceSans
+Closebutton1.Font = Enum.Font.Unknown
 Closebutton1.Text = ""
-Closebutton1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Closebutton1.TextColor3 = Color3.fromRGB(255, 0, 0)
 Closebutton1.TextSize = 14.000
 
 UICorner_4.CornerRadius = UDim.new(1, 0)
@@ -111,21 +135,21 @@ Closelabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Closelabel.BackgroundTransparency = 1.000
 Closelabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Closelabel.BorderSizePixel = 0
-Closelabel.Position = UDim2.new(-0.198352575, 0, -0.0172413792, 0)
+Closelabel.Position = UDim2.new(-0.198352575, 0, 0.0172413792, 0)
 Closelabel.Size = UDim2.new(0, 65, 0, 29)
 Closelabel.Font = Enum.Font.Unknown
-Closelabel.Text = "?"
-Closelabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+Closelabel.Text = "X"
+Closelabel.TextColor3 = Color3.fromRGB(255, 8, 0)
 Closelabel.TextScaled = true
 Closelabel.TextSize = 14.000
 Closelabel.TextWrapped = true
 
 OpenFrameing.Name = "OpenFrameing"
-OpenFrameing.Parent = PrivatServerCode
+OpenFrameing.Parent = NoZoHub
 OpenFrameing.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
 OpenFrameing.BorderColor3 = Color3.fromRGB(0, 0, 0)
 OpenFrameing.BorderSizePixel = 0
-OpenFrameing.Position = UDim2.new(0.413369715, 0, 0.194902778, 0)
+OpenFrameing.Position = UDim2.new(0.365620732, 0, 0.182147667, 0)
 OpenFrameing.Size = UDim2.new(0, 172, 0, 126)
 OpenFrameing.Visible = false
 
@@ -202,8 +226,8 @@ Closelabel_2.BorderSizePixel = 0
 Closelabel_2.Position = UDim2.new(-0.198352575, 0, -0.0172413792, 0)
 Closelabel_2.Size = UDim2.new(0, 65, 0, 29)
 Closelabel_2.Font = Enum.Font.Unknown
-Closelabel_2.Text = "?"
-Closelabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Closelabel_2.Text = "X"
+Closelabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
 Closelabel_2.TextScaled = true
 Closelabel_2.TextSize = 14.000
 Closelabel_2.TextWrapped = true
@@ -217,31 +241,298 @@ Version.BorderSizePixel = 0
 Version.Position = UDim2.new(0.494186044, 0, 0.896825373, 0)
 Version.Size = UDim2.new(0, 87, 0, 14)
 Version.Font = Enum.Font.FredokaOne
-Version.Text = "V. 1.0"
+Version.Text = "V. 3.0"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextScaled = true
 Version.TextSize = 14.000
 Version.TextWrapped = true
 
+openframeig1.Name = "openframeig1"
+openframeig1.Parent = OpenFrameing
+openframeig1.BackgroundColor3 = Color3.fromRGB(124, 124, 124)
+openframeig1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+openframeig1.BorderSizePixel = 0
+openframeig1.Position = UDim2.new(-0.70216459, 0, 0, 0)
+openframeig1.Size = UDim2.new(0, 120, 0, 126)
+openframeig1.Visible = false
+
+UICorner_9.Parent = openframeig1
+
+ComingSoon.Name = "ComingSoon"
+ComingSoon.Parent = openframeig1
+ComingSoon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ComingSoon.BackgroundTransparency = 1.000
+ComingSoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon.BorderSizePixel = 0
+ComingSoon.Position = UDim2.new(0.0791109726, 0, 0.54012531, 0)
+ComingSoon.Size = UDim2.new(0, 100, 0, 43)
+ComingSoon.Font = Enum.Font.Unknown
+ComingSoon.Text = "Coming Soon"
+ComingSoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon.TextScaled = true
+ComingSoon.TextSize = 14.000
+ComingSoon.TextWrapped = true
+
+Button.Name = "Button"
+Button.Parent = openframeig1
+Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.0416666679, 0, 0.0634920672, 0)
+Button.Size = UDim2.new(0, 110, 0, 43)
+Button.Font = Enum.Font.SourceSans
+Button.Text = ""
+Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button.TextSize = 14.000
+
+UICorner_10.CornerRadius = UDim.new(1, 0)
+UICorner_10.Parent = Button
+
+Off.Name = "Off"
+Off.Parent = Button
+Off.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Off.BackgroundTransparency = 1.000
+Off.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Off.BorderSizePixel = 0
+Off.Position = UDim2.new(0, 0, 0.186046511, 0)
+Off.Size = UDim2.new(0, 104, 0, 28)
+Off.Font = Enum.Font.Unknown
+Off.Text = "Nil"
+Off.TextColor3 = Color3.fromRGB(0, 0, 0)
+Off.TextScaled = true
+Off.TextSize = 14.000
+Off.TextWrapped = true
+
+Open2343.Name = "Open2343"
+Open2343.Parent = OpenFrameing
+Open2343.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open2343.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Open2343.BorderSizePixel = 0
+Open2343.Position = UDim2.new(-0.00717464695, 0, -0.238095239, 0)
+Open2343.Size = UDim2.new(0, 47, 0, 29)
+Open2343.Font = Enum.Font.SourceSans
+Open2343.Text = ""
+Open2343.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open2343.TextSize = 14.000
+
+UICorner_11.CornerRadius = UDim.new(1, 0)
+UICorner_11.Parent = Open2343
+
+Openlabel22.Name = "Openlabel22"
+Openlabel22.Parent = Open2343
+Openlabel22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Openlabel22.BackgroundTransparency = 1.000
+Openlabel22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Openlabel22.BorderSizePixel = 0
+Openlabel22.Position = UDim2.new(-0.198352575, 0, -0.0172413792, 0)
+Openlabel22.Size = UDim2.new(0, 65, 0, 29)
+Openlabel22.Font = Enum.Font.Unknown
+Openlabel22.Text = "<"
+Openlabel22.TextColor3 = Color3.fromRGB(255, 0, 0)
+Openlabel22.TextScaled = true
+Openlabel22.TextSize = 14.000
+Openlabel22.TextWrapped = true
+
+Updateframe.Name = "Updateframe"
+Updateframe.Parent = NoZoHub
+Updateframe.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+Updateframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Updateframe.BorderSizePixel = 0
+Updateframe.Position = UDim2.new(0.298135281, 0, 0.208897397, 0)
+Updateframe.Size = UDim2.new(0, 204, 0, 121)
+
+UICorner_12.Parent = Updateframe
+
+UpdateButton.Name = "UpdateButton"
+UpdateButton.Parent = Updateframe
+UpdateButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UpdateButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UpdateButton.BorderSizePixel = 0
+UpdateButton.Position = UDim2.new(0.0637254938, 0, 0.603305757, 0)
+UpdateButton.Size = UDim2.new(0, 178, 0, 31)
+UpdateButton.Font = Enum.Font.SourceSans
+UpdateButton.Text = ""
+UpdateButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+UpdateButton.TextSize = 14.000
+
+UICorner_13.CornerRadius = UDim.new(1, 0)
+UICorner_13.Parent = UpdateButton
+
+Updatelabel.Name = "Updatelabel"
+Updatelabel.Parent = UpdateButton
+Updatelabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updatelabel.BackgroundTransparency = 1.000
+Updatelabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Updatelabel.BorderSizePixel = 0
+Updatelabel.Position = UDim2.new(-0.00172338588, 0, 0.0472746827, 0)
+Updatelabel.Size = UDim2.new(0, 167, 0, 29)
+Updatelabel.Font = Enum.Font.FredokaOne
+Updatelabel.Text = "Playing with the new version"
+Updatelabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+Updatelabel.TextScaled = true
+Updatelabel.TextSize = 14.000
+Updatelabel.TextWrapped = true
+
+UpdateTitle.Name = "UpdateTitle"
+UpdateTitle.Parent = Updateframe
+UpdateTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UpdateTitle.BackgroundTransparency = 1.000
+UpdateTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UpdateTitle.BorderSizePixel = 0
+UpdateTitle.Position = UDim2.new(0.156862751, 0, 0.0909090936, 0)
+UpdateTitle.Size = UDim2.new(0, 139, 0, 33)
+UpdateTitle.Font = Enum.Font.Unknown
+UpdateTitle.Text = "New Update "
+UpdateTitle.TextColor3 = Color3.fromRGB(157, 157, 157)
+UpdateTitle.TextScaled = true
+UpdateTitle.TextSize = 14.000
+UpdateTitle.TextWrapped = true
+
+LoadFrame.Name = "LoadFrame"
+LoadFrame.Parent = NoZoHub
+LoadFrame.BackgroundColor3 = Color3.fromRGB(141, 141, 141)
+LoadFrame.BackgroundTransparency = 0.450
+LoadFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoadFrame.BorderSizePixel = 0
+LoadFrame.Size = UDim2.new(1e+10, 2147483647, 100000000, 1000000000)
+LoadFrame.Visible = false
+
+LoadFramei.Name = "LoadFramei"
+LoadFramei.Parent = LoadFrame
+LoadFramei.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoadFramei.BackgroundTransparency = 0.450
+LoadFramei.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoadFramei.BorderSizePixel = 0
+LoadFramei.Position = UDim2.new(2.98065912e-11, 0, 1.94769068e-09, 0)
+LoadFramei.Size = UDim2.new(0, 289, 0, 137)
+
+UICorner_14.CornerRadius = UDim.new(0, 9)
+UICorner_14.Parent = LoadFramei
+
+LoadText.Name = "LoadText"
+LoadText.Parent = LoadFramei
+LoadText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoadText.BackgroundTransparency = 1.000
+LoadText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoadText.BorderSizePixel = 0
+LoadText.Position = UDim2.new(0, 0, 0.175182477, 0)
+LoadText.Rotation = -0.000
+LoadText.Size = UDim2.new(0, 281, 0, 94)
+LoadText.Font = Enum.Font.SourceSans
+LoadText.Text = "C"
+LoadText.TextColor3 = Color3.fromRGB(0, 0, 0)
+LoadText.TextScaled = true
+LoadText.TextSize = 14.000
+LoadText.TextWrapped = true
+
+PasswordFolder.Name = "PasswordFolder"
+PasswordFolder.Parent = NoZoHub
+
+PasswordConfig.Name = "PasswordConfig"
+PasswordConfig.Parent = PasswordFolder
+
+Nosupport.Name = "Nosupport"
+Nosupport.Parent = NoZoHub
+Nosupport.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+Nosupport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nosupport.BorderSizePixel = 0
+Nosupport.Position = UDim2.new(0.361527979, 0, 0.200004816, 0)
+Nosupport.Size = UDim2.new(0, 172, 0, 126)
+Nosupport.Visible = false
+
+UICorner_15.Parent = Nosupport
+
+Closebutton8.Name = "Closebutton8"
+Closebutton8.Parent = Nosupport
+Closebutton8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Closebutton8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Closebutton8.BorderSizePixel = 0
+Closebutton8.Position = UDim2.new(0.72538352, 0, 0, 0)
+Closebutton8.Size = UDim2.new(0, 47, 0, 29)
+Closebutton8.Font = Enum.Font.SourceSans
+Closebutton8.Text = ""
+Closebutton8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Closebutton8.TextSize = 14.000
+
+UICorner_16.CornerRadius = UDim.new(1, 0)
+UICorner_16.Parent = Closebutton8
+
+Closelabel9.Name = "Closelabel9"
+Closelabel9.Parent = Closebutton8
+Closelabel9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Closelabel9.BackgroundTransparency = 1.000
+Closelabel9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Closelabel9.BorderSizePixel = 0
+Closelabel9.Position = UDim2.new(-0.198352575, 0, -0.0172413792, 0)
+Closelabel9.Size = UDim2.new(0, 65, 0, 29)
+Closelabel9.Font = Enum.Font.Unknown
+Closelabel9.Text = "X"
+Closelabel9.TextColor3 = Color3.fromRGB(255, 0, 0)
+Closelabel9.TextScaled = true
+Closelabel9.TextSize = 14.000
+Closelabel9.TextWrapped = true
+
+Version_2.Name = "Version"
+Version_2.Parent = Nosupport
+Version_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version_2.BackgroundTransparency = 1.000
+Version_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Version_2.BorderSizePixel = 0
+Version_2.Position = UDim2.new(0.494186044, 0, 0.896825373, 0)
+Version_2.Size = UDim2.new(0, 87, 0, 14)
+Version_2.Font = Enum.Font.FredokaOne
+Version_2.Text = "V. 3.0"
+Version_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Version_2.TextScaled = true
+Version_2.TextSize = 14.000
+Version_2.TextWrapped = true
+
+Notsub.Name = "Notsub"
+Notsub.Parent = Nosupport
+Notsub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Notsub.BackgroundTransparency = 1.000
+Notsub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Notsub.BorderSizePixel = 0
+Notsub.Position = UDim2.new(0, 0, 0.333333343, 0)
+Notsub.Size = UDim2.new(0, 164, 0, 41)
+Notsub.Font = Enum.Font.FredokaOne
+Notsub.Text = "Game not supported"
+Notsub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Notsub.TextScaled = true
+Notsub.TextSize = 14.000
+Notsub.TextWrapped = true
+
 -- Scripts:
 
-local function BILMRDI_fake_script() -- Main.Sendpasswordscript 
+local function PVCMU_fake_script() -- Main.Sendpasswordscript 
 	local script = Instance.new('LocalScript', Main)
 
+	local gameid = game.GameId
 	local main = script.Parent
 	local Textbox = main.NamePassword
 	local send = main.Send
+	local notSub = script.Parent.Parent:WaitForChild("Nosupport")
 	
-	local Password1 = "Bombblingm" 
-	local Password2 = "bombblingm"
+	
+	local Password1 =  script.Parent.Parent:WaitForChild("PasswordFolder"):WaitForChild("PasswordConfig"):GetAttribute("Password1")
+	local Password2 = script.Parent.Parent:WaitForChild("PasswordFolder"):WaitForChild("PasswordConfig"):GetAttribute("Password2")
+	local Password3 = script.Parent.Parent:WaitForChild("PasswordFolder"):WaitForChild("PasswordConfig"):GetAttribute("Password3")
+	
 	
 	send.MouseButton1Click:Connect(function(sending) 
-		if Textbox.Text == Password1 or Textbox.Text == Password2 then
+		if Textbox.Text == Password1 or Textbox.Text == Password2 or Textbox.Text == Password3 then
+			if gameid == "7711635737" then
 			main.Visible = false
 			script.Parent.Parent:WaitForChild("OpenFrameing").Visible = true
 			script.Enabled = false
 			return
-				
+			else 
+				notSub.Visible = true
+				script.Parent.Visible = false
+				wait(3)
+				script.Parent.Parent:Remove()
+				return
+			end	
 		else
 			send.Visible = false
 			Textbox.Text = ""
@@ -257,8 +548,8 @@ local function BILMRDI_fake_script() -- Main.Sendpasswordscript
 	
 	
 end
-coroutine.wrap(BILMRDI_fake_script)()
-local function AUFIX_fake_script() -- Main.Drag1 
+coroutine.wrap(PVCMU_fake_script)()
+local function MDKLA_fake_script() -- Main.Drag1 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -301,8 +592,8 @@ local function AUFIX_fake_script() -- Main.Drag1
 		end
 	end)
 end
-coroutine.wrap(AUFIX_fake_script)()
-local function LVYOJYB_fake_script() -- Closebutton1.Schliessscript 
+coroutine.wrap(MDKLA_fake_script)()
+local function TTVKT_fake_script() -- Closebutton1.Schliessscript 
 	local script = Instance.new('LocalScript', Closebutton1)
 
 	script.Parent.MouseButton1Click:Connect(function() 
@@ -310,8 +601,8 @@ local function LVYOJYB_fake_script() -- Closebutton1.Schliessscript
 	end)
 	
 end
-coroutine.wrap(LVYOJYB_fake_script)()
-local function VBCT_fake_script() -- Wiederherstellen.WiederHerstellenScript 
+coroutine.wrap(TTVKT_fake_script)()
+local function STPNXL_fake_script() -- Wiederherstellen.WiederHerstellenScript 
 	local script = Instance.new('LocalScript', Wiederherstellen)
 
 	local button = script.Parent
@@ -340,8 +631,8 @@ local function VBCT_fake_script() -- Wiederherstellen.WiederHerstellenScript
 		
 	end)
 end
-coroutine.wrap(VBCT_fake_script)()
-local function YASFMQL_fake_script() -- Closebutton.Schliessscript1 
+coroutine.wrap(STPNXL_fake_script)()
+local function AKGHS_fake_script() -- Closebutton.Schliessscript1 
 	local script = Instance.new('LocalScript', Closebutton)
 
 	script.Parent.MouseButton1Click:Connect(function() 
@@ -349,8 +640,8 @@ local function YASFMQL_fake_script() -- Closebutton.Schliessscript1
 	end)
 	
 end
-coroutine.wrap(YASFMQL_fake_script)()
-local function RMFMLXD_fake_script() -- OpenFrameing.Drag 
+coroutine.wrap(AKGHS_fake_script)()
+local function ESWKD_fake_script() -- OpenFrameing.Drag 
 	local script = Instance.new('LocalScript', OpenFrameing)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -393,4 +684,263 @@ local function RMFMLXD_fake_script() -- OpenFrameing.Drag
 		end
 	end)
 end
-coroutine.wrap(RMFMLXD_fake_script)()
+coroutine.wrap(ESWKD_fake_script)()
+local function GETACV_fake_script() -- Button.sred 
+	local script = Instance.new('LocalScript', Button)
+
+	local button = script.Parent
+	local text6 = script.Parent:WaitForChild("textb")
+	
+	button.MouseButton1Click:Connect(function() 
+		if text6.Text == "Off" then
+			text6.Text = "On"
+			text6.TextColor3 = Color3.new(0, 1, 0)
+			script.Parent.Parent.Parent.Parent.IgnoreGuiInset = true
+		else
+			text6.Text = "Off"
+			text6.TextColor3 = Color3.new(1, 0, 0)
+			script.Parent.Parent.Parent.Parent.IgnoreGuiInset = false
+		end
+		
+	end)
+	
+end
+coroutine.wrap(GETACV_fake_script)()
+local function ODINKA_fake_script() -- Open2343.openscript3646 
+	local script = Instance.new('LocalScript', Open2343)
+
+	
+	local frame = script.Parent.Parent:WaitForChild("openframeig1")
+	local label = script.Parent:WaitForChild("Openlabel22")
+	
+	script.Parent.MouseButton1Click:Connect(function() 
+		if frame.Visible == false then
+			frame.Visible = true
+			label.Text = ">"
+		else
+			frame.Visible = false
+			label.Text = "<"
+			
+		end
+	end)
+	
+end
+coroutine.wrap(ODINKA_fake_script)()
+local function XZLC_fake_script() -- UpdateButton.Scrip83383 
+	local script = Instance.new('LocalScript', UpdateButton)
+
+	local frame = script.Parent.Parent
+	local button = script.Parent
+	local mainFrame = script.Parent.Parent.Parent:WaitForChild("LoadFrame")
+	local plr = game.Players.LocalPlayer
+	
+	
+	button.MouseButton1Click:Once(function()
+		
+		mainFrame.Visible = true
+		frame:Remove()
+		
+	end)
+	
+end
+coroutine.wrap(XZLC_fake_script)()
+local function XDCIFP_fake_script() -- UpdateTitle.RainbowScript1 
+	local script = Instance.new('LocalScript', UpdateTitle)
+
+	local frame = script.Parent
+	local rainbowColors = {
+		Color3.new(1, 0, 0),  -- Red
+		Color3.new(1, 0.5, 0),  -- Orange
+		Color3.new(1, 1, 0),  -- Yellow
+		Color3.new(0, 1, 0),  -- Green
+		Color3.new(0, 0, 1),  -- Blue
+		Color3.new(0.5, 0, 1),  -- Purple
+	}
+	
+	local currentIndex = 1
+	
+	while true do
+		frame.TextColor3 = rainbowColors[currentIndex]
+		currentIndex = currentIndex % #rainbowColors + 1
+		wait(1)  -- Wait for 1 second before changing the color
+	end
+	
+end
+coroutine.wrap(XDCIFP_fake_script)()
+local function IGGT_fake_script() -- Updateframe.Drag2 
+	local script = Instance.new('LocalScript', Updateframe)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(IGGT_fake_script)()
+local function TDHCJA_fake_script() -- LoadText.LoadScript1 
+	local script = Instance.new('LocalScript', LoadText)
+
+	local frame = script.Parent.Parent.Parent
+	local mainFrame = script.Parent.Parent.Parent.Parent:WaitForChild("Main")
+	local text = script.Parent
+	local Button = script.Parent.Parent.Parent.Parent:WaitForChild("Updateframe"):WaitForChild("UpdateButton")
+	
+	Button.MouseButton1Click:Once(function()  
+		text.Text = "Loading ."
+		wait(0.8)
+		text.Text = "Loading . ."
+		wait(0.8)
+		text.Text = "Loading . . . "
+		wait(0.8)
+		text.Text = "Loading . "
+		wait(0.8)
+		text.Text = "Loading . ."
+		wait(0.8)
+		text.Text = "Loading . . ."
+		wait(0.8)
+		text.Text = "Ready"
+		wait(0.5)
+		text.TextTransparency = 0.1
+		wait(0.3)
+		text.TextTransparency = 0.2
+		wait(0.3)
+		text.TextTransparency = 0.3
+		wait(0.3)
+		text.TextTransparency = 0.4
+		wait(0.3)
+		text.TextTransparency = 0.5
+		wait(0.3)
+		text.TextTransparency = 0.6
+		wait(0.3)
+		text.TextTransparency = 0.7
+		wait(0.3)
+		text.TextTransparency = 0.8
+		wait(0.3)
+		text.TextTransparency = 0.9
+		wait(0.3)
+		text.TextTransparency = 1
+		frame.Visible = false
+		mainFrame.Visible = true
+		wait(0.3)
+			
+			script.Click:Play()
+			wait(3.3)
+			script.Click:Stop()
+		script.Click:Remove()
+		frame:Remove()
+	return
+	end)
+end
+coroutine.wrap(TDHCJA_fake_script)()
+local function LYWN_fake_script() -- LoadText.RainbowScript2 
+	local script = Instance.new('LocalScript', LoadText)
+
+	local frame = script.Parent
+	local rainbowColors = {
+		Color3.new(1, 0, 0),  -- Red
+		Color3.new(1, 0.5, 0),  -- Orange
+		Color3.new(1, 1, 0),  -- Yellow
+		Color3.new(0, 1, 0),  -- Green
+		Color3.new(0, 0, 1),  -- Blue
+		Color3.new(0.5, 0, 1),  -- Purple
+	}
+	
+	local currentIndex = 1
+	
+	while true do
+		frame.TextColor3 = rainbowColors[currentIndex]
+		currentIndex = currentIndex % #rainbowColors + 1
+		wait(0.4)  -- Wait for 1 second before changing the color
+	end
+	
+end
+coroutine.wrap(LYWN_fake_script)()
+local function CRBZHSA_fake_script() -- Closebutton8.Schliessscript8 
+	local script = Instance.new('LocalScript', Closebutton8)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+		script.Parent.Parent.Parent:Remove()
+	end)
+	
+end
+coroutine.wrap(CRBZHSA_fake_script)()
+local function ECLXUJB_fake_script() -- Nosupport.Drag 
+	local script = Instance.new('LocalScript', Nosupport)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(ECLXUJB_fake_script)()
+
+
