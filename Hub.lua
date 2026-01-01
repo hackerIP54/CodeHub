@@ -521,18 +521,12 @@ local function PVCMU_fake_script() -- Main.Sendpasswordscript
 	
 	send.MouseButton1Click:Connect(function(sending) 
 		if Textbox.Text == Password1 or Textbox.Text == Password2 or Textbox.Text == Password3 then
-			if gameid == "7711635737" then
+
 			main.Visible = false
 			script.Parent.Parent:WaitForChild("OpenFrameing").Visible = true
 			script.Enabled = false
 			return
-			else 
-				notSub.Visible = true
-				script.Parent.Visible = false
-				wait(3)
-				script.Parent.Parent:Remove()
-				return
-			end	
+			
 		else
 			send.Visible = false
 			Textbox.Text = ""
@@ -942,6 +936,7 @@ local function ECLXUJB_fake_script() -- Nosupport.Drag
 	end)
 end
 coroutine.wrap(ECLXUJB_fake_script)()
+
 
 
 
