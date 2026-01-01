@@ -22,29 +22,31 @@ local Closelabel_2 = Instance.new("TextLabel")
 local Version = Instance.new("TextLabel")
 local openframeig1 = Instance.new("Frame")
 local UICorner_9 = Instance.new("UICorner")
-local ComingSoon = Instance.new("TextLabel")
 local Button = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
 local Off = Instance.new("TextLabel")
-local Open2343 = Instance.new("TextButton")
+local Button1 = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
+local Rest = Instance.new("TextLabel")
+local Open2343 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
 local Openlabel22 = Instance.new("TextLabel")
 local Updateframe = Instance.new("Frame")
-local UICorner_12 = Instance.new("UICorner")
-local UpdateButton = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
+local UpdateButton = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
 local Updatelabel = Instance.new("TextLabel")
 local UpdateTitle = Instance.new("TextLabel")
 local LoadFrame = Instance.new("Frame")
 local LoadFramei = Instance.new("Frame")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local LoadText = Instance.new("TextLabel")
 local PasswordFolder = Instance.new("Folder")
 local PasswordConfig = Instance.new("Configuration")
 local Nosupport = Instance.new("Frame")
-local UICorner_15 = Instance.new("UICorner")
-local Closebutton8 = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
+local Closebutton8 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
 local Closelabel9 = Instance.new("TextLabel")
 local Version_2 = Instance.new("TextLabel")
 local Notsub = Instance.new("TextLabel")
@@ -164,7 +166,7 @@ Code.Position = UDim2.new(0.0232558139, 0, 0.465732157, 0)
 Code.Size = UDim2.new(0, 163, 0, 42)
 Code.ClearTextOnFocus = false
 Code.Font = Enum.Font.FredokaOne
-Code.Text = "0qssbsky"
+Code.Text = "6q1csybw"
 Code.TextColor3 = Color3.fromRGB(0, 0, 0)
 Code.TextScaled = true
 Code.TextSize = 14.000
@@ -258,21 +260,6 @@ openframeig1.Visible = false
 
 UICorner_9.Parent = openframeig1
 
-ComingSoon.Name = "ComingSoon"
-ComingSoon.Parent = openframeig1
-ComingSoon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ComingSoon.BackgroundTransparency = 1.000
-ComingSoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon.BorderSizePixel = 0
-ComingSoon.Position = UDim2.new(0.0791109726, 0, 0.54012531, 0)
-ComingSoon.Size = UDim2.new(0, 100, 0, 43)
-ComingSoon.Font = Enum.Font.Unknown
-ComingSoon.Text = "Coming Soon"
-ComingSoon.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon.TextScaled = true
-ComingSoon.TextSize = 14.000
-ComingSoon.TextWrapped = true
-
 Button.Name = "Button"
 Button.Parent = openframeig1
 Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -297,11 +284,41 @@ Off.BorderSizePixel = 0
 Off.Position = UDim2.new(0, 0, 0.186046511, 0)
 Off.Size = UDim2.new(0, 104, 0, 28)
 Off.Font = Enum.Font.Unknown
-Off.Text = "Nil"
+Off.Text = "Off"
 Off.TextColor3 = Color3.fromRGB(0, 0, 0)
 Off.TextScaled = true
 Off.TextSize = 14.000
 Off.TextWrapped = true
+
+Button1.Name = "Button1"
+Button1.Parent = openframeig1
+Button1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button1.BorderSizePixel = 0
+Button1.Position = UDim2.new(0.0166666675, 0, 0.555555582, 0)
+Button1.Size = UDim2.new(0, 110, 0, 43)
+Button1.Font = Enum.Font.SourceSans
+Button1.Text = ""
+Button1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button1.TextSize = 14.000
+
+UICorner_11.CornerRadius = UDim.new(1, 0)
+UICorner_11.Parent = Button1
+
+Rest.Name = "Rest"
+Rest.Parent = Button1
+Rest.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rest.BackgroundTransparency = 1.000
+Rest.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rest.BorderSizePixel = 0
+Rest.Position = UDim2.new(0.0818181783, 0, 0.162790701, 0)
+Rest.Size = UDim2.new(0, 104, 0, 28)
+Rest.Font = Enum.Font.Unknown
+Rest.Text = "R"
+Rest.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rest.TextScaled = true
+Rest.TextSize = 14.000
+Rest.TextWrapped = true
 
 Open2343.Name = "Open2343"
 Open2343.Parent = OpenFrameing
@@ -315,8 +332,8 @@ Open2343.Text = ""
 Open2343.TextColor3 = Color3.fromRGB(0, 0, 0)
 Open2343.TextSize = 14.000
 
-UICorner_11.CornerRadius = UDim.new(1, 0)
-UICorner_11.Parent = Open2343
+UICorner_12.CornerRadius = UDim.new(1, 0)
+UICorner_12.Parent = Open2343
 
 Openlabel22.Name = "Openlabel22"
 Openlabel22.Parent = Open2343
@@ -341,7 +358,7 @@ Updateframe.BorderSizePixel = 0
 Updateframe.Position = UDim2.new(0.298135281, 0, 0.208897397, 0)
 Updateframe.Size = UDim2.new(0, 204, 0, 121)
 
-UICorner_12.Parent = Updateframe
+UICorner_13.Parent = Updateframe
 
 UpdateButton.Name = "UpdateButton"
 UpdateButton.Parent = Updateframe
@@ -355,8 +372,8 @@ UpdateButton.Text = ""
 UpdateButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 UpdateButton.TextSize = 14.000
 
-UICorner_13.CornerRadius = UDim.new(1, 0)
-UICorner_13.Parent = UpdateButton
+UICorner_14.CornerRadius = UDim.new(1, 0)
+UICorner_14.Parent = UpdateButton
 
 Updatelabel.Name = "Updatelabel"
 Updatelabel.Parent = UpdateButton
@@ -403,11 +420,11 @@ LoadFramei.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 LoadFramei.BackgroundTransparency = 0.450
 LoadFramei.BorderColor3 = Color3.fromRGB(0, 0, 0)
 LoadFramei.BorderSizePixel = 0
-LoadFramei.Position = UDim2.new(2.98065912e-11, 0, 1.94769068e-09, 0)
+LoadFramei.Position = UDim2.new(3.82625043e-11, 0, 2.843213e-09, 0)
 LoadFramei.Size = UDim2.new(0, 289, 0, 137)
 
-UICorner_14.CornerRadius = UDim.new(0, 9)
-UICorner_14.Parent = LoadFramei
+UICorner_15.CornerRadius = UDim.new(0, 9)
+UICorner_15.Parent = LoadFramei
 
 LoadText.Name = "LoadText"
 LoadText.Parent = LoadFramei
@@ -440,7 +457,7 @@ Nosupport.Position = UDim2.new(0.361527979, 0, 0.200004816, 0)
 Nosupport.Size = UDim2.new(0, 172, 0, 126)
 Nosupport.Visible = false
 
-UICorner_15.Parent = Nosupport
+UICorner_16.Parent = Nosupport
 
 Closebutton8.Name = "Closebutton8"
 Closebutton8.Parent = Nosupport
@@ -454,8 +471,8 @@ Closebutton8.Text = ""
 Closebutton8.TextColor3 = Color3.fromRGB(0, 0, 0)
 Closebutton8.TextSize = 14.000
 
-UICorner_16.CornerRadius = UDim.new(1, 0)
-UICorner_16.Parent = Closebutton8
+UICorner_17.CornerRadius = UDim.new(1, 0)
+UICorner_17.Parent = Closebutton8
 
 Closelabel9.Name = "Closelabel9"
 Closelabel9.Parent = Closebutton8
@@ -504,46 +521,7 @@ Notsub.TextWrapped = true
 
 -- Scripts:
 
-local function PVCMU_fake_script() -- Main.Sendpasswordscript 
-	local script = Instance.new('LocalScript', Main)
-
-	local gameid = game.GameId
-	local main = script.Parent
-	local Textbox = main.NamePassword
-	local send = main.Send
-	local notSub = script.Parent.Parent:WaitForChild("Nosupport")
-	
-	
-	local Password1 =  "EH"
-	local Password2 =  "bombblingm"
-	local Password3 = "Bombblingm"
-	
-	
-	send.MouseButton1Click:Connect(function(sending) 
-		if Textbox.Text == Password1 or Textbox.Text == Password2 or Textbox.Text == Password3 then
-
-			main.Visible = false
-			script.Parent.Parent:WaitForChild("OpenFrameing").Visible = true
-			script.Enabled = false
-			return
-			
-		else
-			send.Visible = false
-			Textbox.Text = ""
-			Textbox.PlaceholderText = "Falsches Password"
-			Textbox.PlaceholderColor3 = Color3.fromRGB(255, 0, 0)
-			wait(2)
-			Textbox.PlaceholderText = "Bitte Password"
-			Textbox.PlaceholderColor3 = Color3.fromRGB(89, 89, 89)
-			send.Visible = true
-		end
-		
-	end)
-	
-	
-end
-coroutine.wrap(PVCMU_fake_script)()
-local function MDKLA_fake_script() -- Main.Drag1 
+local function RVBBH_fake_script() -- Main.Drag1 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -586,8 +564,8 @@ local function MDKLA_fake_script() -- Main.Drag1
 		end
 	end)
 end
-coroutine.wrap(MDKLA_fake_script)()
-local function TTVKT_fake_script() -- Closebutton1.Schliessscript 
+coroutine.wrap(RVBBH_fake_script)()
+local function KXZJ_fake_script() -- Closebutton1.Schliessscript 
 	local script = Instance.new('LocalScript', Closebutton1)
 
 	script.Parent.MouseButton1Click:Connect(function() 
@@ -595,8 +573,47 @@ local function TTVKT_fake_script() -- Closebutton1.Schliessscript
 	end)
 	
 end
-coroutine.wrap(TTVKT_fake_script)()
-local function STPNXL_fake_script() -- Wiederherstellen.WiederHerstellenScript 
+coroutine.wrap(KXZJ_fake_script)()
+local function YXWDQLG_fake_script() -- Main.Sendpasswordscript 
+	local script = Instance.new('LocalScript', Main)
+
+	local gameid = game.GameId
+	local main = script.Parent
+	local Textbox = main.NamePassword
+	local send = main.Send
+	local notSub = script.Parent.Parent:WaitForChild("Nosupport")
+	
+	
+	local Password1 =  "bombblingm"
+	local Password2 = "Bombblingm"
+	local Password3 = "EH2026"
+	
+	
+	send.MouseButton1Click:Connect(function(sending) 
+		if Textbox.Text == Password1 or Textbox.Text == Password2 or Textbox.Text == Password3 then
+			
+			main.Visible = false
+			script.Parent.Parent:WaitForChild("OpenFrameing").Visible = true
+			script.Enabled = false
+			return
+		
+		else
+			send.Visible = false
+			Textbox.Text = ""
+			Textbox.PlaceholderText = "Falsches Password"
+			Textbox.PlaceholderColor3 = Color3.fromRGB(255, 0, 0)
+			wait(2)
+			Textbox.PlaceholderText = "Bitte Password"
+			Textbox.PlaceholderColor3 = Color3.fromRGB(89, 89, 89)
+			send.Visible = true
+		end
+		
+	end)
+	
+	
+end
+coroutine.wrap(YXWDQLG_fake_script)()
+local function QSMN_fake_script() -- Wiederherstellen.WiederHerstellenScript 
 	local script = Instance.new('LocalScript', Wiederherstellen)
 
 	local button = script.Parent
@@ -618,15 +635,15 @@ local function STPNXL_fake_script() -- Wiederherstellen.WiederHerstellenScript
 			button.Visible = false
 			wait(0.9)
 			button:WaitForChild("WiederHerstellenLabel").Text = "WiederHerstellen"
-			textbox.Text = "6q1csybw"
+			textbox.Text = "0qssbsky"
 			wait(2)
 			button.Visible = true
 		end
 		
 	end)
 end
-coroutine.wrap(STPNXL_fake_script)()
-local function AKGHS_fake_script() -- Closebutton.Schliessscript1 
+coroutine.wrap(QSMN_fake_script)()
+local function FYQGEB_fake_script() -- Closebutton.Schliessscript1 
 	local script = Instance.new('LocalScript', Closebutton)
 
 	script.Parent.MouseButton1Click:Connect(function() 
@@ -634,8 +651,8 @@ local function AKGHS_fake_script() -- Closebutton.Schliessscript1
 	end)
 	
 end
-coroutine.wrap(AKGHS_fake_script)()
-local function ESWKD_fake_script() -- OpenFrameing.Drag 
+coroutine.wrap(FYQGEB_fake_script)()
+local function LLRFN_fake_script() -- OpenFrameing.Drag 
 	local script = Instance.new('LocalScript', OpenFrameing)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -678,12 +695,12 @@ local function ESWKD_fake_script() -- OpenFrameing.Drag
 		end
 	end)
 end
-coroutine.wrap(ESWKD_fake_script)()
-local function GETACV_fake_script() -- Button.sred 
+coroutine.wrap(LLRFN_fake_script)()
+local function NUWXCHA_fake_script() -- Button.sred 
 	local script = Instance.new('LocalScript', Button)
 
 	local button = script.Parent
-	local text6 = script.Parent:WaitForChild("textb")
+	local text6 = script.Parent:WaitForChild("Off")
 	
 	button.MouseButton1Click:Connect(function() 
 		if text6.Text == "Off" then
@@ -699,8 +716,24 @@ local function GETACV_fake_script() -- Button.sred
 	end)
 	
 end
-coroutine.wrap(GETACV_fake_script)()
-local function ODINKA_fake_script() -- Open2343.openscript3646 
+coroutine.wrap(NUWXCHA_fake_script)()
+local function PUALY_fake_script() -- Button1.sred1 
+	local script = Instance.new('LocalScript', Button1)
+
+	local button = script.Parent
+	local text6 = script.Parent:WaitForChild("Off")
+	local Jobid = game.JobId
+	local TP = game:GetService("TeleportService")
+	
+	
+	button.MouseButton1Click:Connect(function() 
+	TP:Teleport(Jobid, game.Players.LocalPlayer)
+		
+	end)
+	
+end
+coroutine.wrap(PUALY_fake_script)()
+local function EJUSVQ_fake_script() -- Open2343.openscript3646 
 	local script = Instance.new('LocalScript', Open2343)
 
 	
@@ -719,8 +752,8 @@ local function ODINKA_fake_script() -- Open2343.openscript3646
 	end)
 	
 end
-coroutine.wrap(ODINKA_fake_script)()
-local function XZLC_fake_script() -- UpdateButton.Scrip83383 
+coroutine.wrap(EJUSVQ_fake_script)()
+local function EPJQODK_fake_script() -- UpdateButton.Scrip83383 
 	local script = Instance.new('LocalScript', UpdateButton)
 
 	local frame = script.Parent.Parent
@@ -737,8 +770,8 @@ local function XZLC_fake_script() -- UpdateButton.Scrip83383
 	end)
 	
 end
-coroutine.wrap(XZLC_fake_script)()
-local function XDCIFP_fake_script() -- UpdateTitle.RainbowScript1 
+coroutine.wrap(EPJQODK_fake_script)()
+local function ARALGMH_fake_script() -- UpdateTitle.RainbowScript1 
 	local script = Instance.new('LocalScript', UpdateTitle)
 
 	local frame = script.Parent
@@ -760,8 +793,8 @@ local function XDCIFP_fake_script() -- UpdateTitle.RainbowScript1
 	end
 	
 end
-coroutine.wrap(XDCIFP_fake_script)()
-local function IGGT_fake_script() -- Updateframe.Drag2 
+coroutine.wrap(ARALGMH_fake_script)()
+local function KPRSM_fake_script() -- Updateframe.Drag2 
 	local script = Instance.new('LocalScript', Updateframe)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -804,8 +837,8 @@ local function IGGT_fake_script() -- Updateframe.Drag2
 		end
 	end)
 end
-coroutine.wrap(IGGT_fake_script)()
-local function TDHCJA_fake_script() -- LoadText.LoadScript1 
+coroutine.wrap(KPRSM_fake_script)()
+local function FWYZ_fake_script() -- LoadText.LoadScript1 
 	local script = Instance.new('LocalScript', LoadText)
 
 	local frame = script.Parent.Parent.Parent
@@ -859,8 +892,8 @@ local function TDHCJA_fake_script() -- LoadText.LoadScript1
 	return
 	end)
 end
-coroutine.wrap(TDHCJA_fake_script)()
-local function LYWN_fake_script() -- LoadText.RainbowScript2 
+coroutine.wrap(FWYZ_fake_script)()
+local function CDTKSIO_fake_script() -- LoadText.RainbowScript2 
 	local script = Instance.new('LocalScript', LoadText)
 
 	local frame = script.Parent
@@ -882,8 +915,8 @@ local function LYWN_fake_script() -- LoadText.RainbowScript2
 	end
 	
 end
-coroutine.wrap(LYWN_fake_script)()
-local function CRBZHSA_fake_script() -- Closebutton8.Schliessscript8 
+coroutine.wrap(CDTKSIO_fake_script)()
+local function WWONFVO_fake_script() -- Closebutton8.Schliessscript8 
 	local script = Instance.new('LocalScript', Closebutton8)
 
 	script.Parent.MouseButton1Click:Connect(function() 
@@ -891,8 +924,8 @@ local function CRBZHSA_fake_script() -- Closebutton8.Schliessscript8
 	end)
 	
 end
-coroutine.wrap(CRBZHSA_fake_script)()
-local function ECLXUJB_fake_script() -- Nosupport.Drag 
+coroutine.wrap(WWONFVO_fake_script)()
+local function LUIUKA_fake_script() -- Nosupport.Drag 
 	local script = Instance.new('LocalScript', Nosupport)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -935,7 +968,7 @@ local function ECLXUJB_fake_script() -- Nosupport.Drag
 		end
 	end)
 end
-coroutine.wrap(ECLXUJB_fake_script)()
+coroutine.wrap(LUIUKA_fake_script)()
 
 
 
